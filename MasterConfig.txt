@@ -1,0 +1,33 @@
+Pgn_Name= My_SCA_Study
+Starting_Pgn= 1. e4
+
+Engine_Enable= true
+Cpu_Cores = 1
+Engine_Memory = 1024
+Engine_Depth= 30
+
+Villain_Database_Enabled= true
+Villain_DB_Branches = 1
+Villain_Lichess_Username = German11
+Villain_DB_Move_Total_Games= 1
+Villain_DB_Move_Popularity= 10
+Villain_DB_Time_Control = ultraBullet,bullet,blitz,rapid,classical,correspondence
+
+Online_Database_Enabled = true
+Online_DB_Branches = 1
+Online_DB_Move_Popularity= 1
+Online_DB_Move_Total_Games= 1
+Online_DB_Ratings = 1600,1800,2000,2200,2500
+Online_DB_Time_Control = ultraBullet,bullet,blitz,rapid,classical,correspondence
+
+Master_Database_Enabled= true
+Master_DB_Branches = 2
+
+Cloud_Engine_Enable = true
+Cloud_Engine_Depth= 26
+
+Line_Depth = 10
+Need_To_Win = Need To Win
+
+Blunder_Stop= 80
+License= beta
