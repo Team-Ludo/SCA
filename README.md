@@ -7,7 +7,7 @@ Effectively this allows you to prepare against a specific opponent using their l
 
 INSTALATION: 
 1)	Download the contents, ie. MasterConfig.txt and SCA.jar from here and place it in a folder on your pc.
-2)	Download your engine of choice. I suggest Stockfish which can be downloaded from: https://stockfishchess.org/download/. Place the engine in the same folder as the other two files.
+2)	Download your engine of choice. I suggest Stockfish which can be downloaded from: https://stockfishchess.org/download/. Place the engine in the same folder as the other two files. RENAME THE ENGINE TO: "Engine.exe"
 3)	Change the settings as described below.
 4)	Double click the SCA.jar file and read the output as it performs it work.
 5)	After it is finished you will see 2 new files. The first file is the _log text file that give more detail of what lines SCA considered ect. The second file is the PGN that you can import to Lichess as a study.
