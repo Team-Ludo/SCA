@@ -12,7 +12,9 @@ INSTALATION:
 4)	Double click the SCA.jar file and read the output as it performs it work.
 5)	After it is finished you will see 2 new files. The first file is the _log text file that give more detail of what lines SCA considered ect. The second file is the PGN that you can import to Lichess as a study.
 
-Settings:
+SETTINGS:
+
+
 You have full control over what and how many different lines will be looked at. Currently you have to change these settings in the MasterConfig.txt file but a GUI will soon be introduced. 
 To change the settings simply open the file in notepad, change, save and run the app. Below is a very brief description of each of the settings:
 1) Pgn_Name= My_SCA_Study -> Simply type the desired name for your PGN 
