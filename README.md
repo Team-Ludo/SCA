@@ -6,10 +6,11 @@ This app allows you to create PGN files where your engine plays against a databa
 Effectively this allows you to prepare against a specific opponent using their lichess database.
 
 INSTALATION: 
-1)	Download the contents, ie. MasterConfig.txt and SCA.jar from here and place it in a folder on your pc.
-2)	Download your engine of choice. I suggest Stockfish which can be downloaded from: https://stockfishchess.org/download/. Place the engine in the same folder as the other two files. RENAME THE ENGINE TO: "Engine.exe"
+1)	Download the contents, ie. MasterConfig.txt and SCA_xxxx__.jar from here and place it in a folder on your pc.
+2)	Download your engine of choice. I suggest Stockfish which can be downloaded from: https://stockfishchess.org/download/. Please make sure to download the version that is compatible with your PC and opperating system. If you unsure just double click the binary that you downloaded. It should open a black window and it should not close by itself. Place the engine in the same folder as the other two files. RENAME THE ENGINE TO: "Engine.exe"
 3)	Change the settings as described below.
-4)	Double click the SCA.jar file and read the output as it performs it work.
+4)	Double click the SCA.jar file and read the output as it performs it work. If this does not start the program please make sure that you have java installed on your PC. This is done by opening a terminal and typing 'java --version'. If it gives ''java' is not recognized as an internal or external command,
+operable program or batch file.' Then you need to install java first. TO do this you can follow this guide: https://phoenixnap.com/kb/install-java-windows
 5)	After it is finished you will see 2 new files. The first file is the _log text file that give more detail of what lines SCA considered ect. The second file is the PGN that you can import to Lichess as a study.
 
 SETTINGS:
