@@ -1,33 +1,38 @@
-Pgn_Name= My_SCA_Study
-Starting_Pgn= 1. e4
+Pgn_Name= German11
+Starting_Pgn= 1. e4 e6
 
-Engine_Enable= true
-Cpu_Cores = 1
-Engine_Memory = 1024
+Engine_Enable= false
+Cpu_Cores = 3
+Engine_Memory = 10000
 Engine_Depth= 30
 
 Villain_Database_Enabled= true
-Villain_DB_Branches = 1
-Villain_Lichess_Username = German11
-Villain_DB_Move_Total_Games= 1
-Villain_DB_Move_Popularity= 10
+Villain_DB_Branches = 2
+Villain_Lichess_Username = german11
+Villain_DB_Move_Total_Games= 2
+Villain_DB_Move_Popularity= 2
 Villain_DB_Time_Control = ultraBullet,bullet,blitz,rapid,classical,correspondence
 
-Online_Database_Enabled = true
-Online_DB_Branches = 1
+Online_Database_Enabled = false
+Online_DB_Branches = 2
 Online_DB_Move_Popularity= 1
 Online_DB_Move_Total_Games= 1
-Online_DB_Ratings = 1600,1800,2000,2200,2500
+Online_DB_Ratings = 600,1000,1400,1600,1800,2000,2200,2500
 Online_DB_Time_Control = ultraBullet,bullet,blitz,rapid,classical,correspondence
 
-Master_Database_Enabled= true
-Master_DB_Branches = 2
+Hero_Database_Enabled = true
+Hero_DB_Branches = 2
+Hero_Lichess_Username = german11
+
+Villian_Master_Database_Enabled= false
+Hero_Master_Database_Enabled= false
+Master_DB_Branches = 10
 
 Cloud_Engine_Enable = true
 Cloud_Engine_Depth= 26
 
 Line_Depth = 10
-Need_To_Win = Need To Win
 
+Need_To_Win = true
 Blunder_Stop= 80
 License= beta
