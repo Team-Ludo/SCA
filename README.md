@@ -3,9 +3,9 @@ Welcome to SOME CHESS APP {SCA} beta.
 
 This app allows you to create PGN for purposes of preparing against an opponent or even against a database. 
 
-Essenally the application will retrieve candidate move(s) for the villain from the databases as set by the user. The number of moves so retrieved and included are limited by (i) which database(s) are used; (ii) how many branches are defined; (iii) the minimum games and popularity settings. 
+SCA starts at a user defined position and then retrieves candidate move(s) for the villain from the database(s) as defined by the user. The number of moves so retrieved and included are limited by (i) which database(s) are used; (ii) how many branches are defined; (iii) the minimum games and popularity settings. 
 
-Thereafter, and for each of these villain moves, the app will search for a Hero move. At present the following options are available: (i) retrieve the moves we have played in a specific position then select the best performing move as defined by our results; (ii) Use the most popular move from the master database; (iii) use the top engine move. Please note that if we selected any of the first two options and the App was unable to fine any moves then it will automatically default to the top engine move. 
+Thereafter, and for each of the included villain moves, the app will search for a Hero move. At present the following options are available: (i) retrieve the moves Hero has played in a specific position then select the best performing move as defined by our results; (ii) Use the most popular move from the master database; (iii) use the top engine move. Please note that if we selected any of the first two options and the App was unable to fine any moves then it will automatically default to the top engine move. 
 
 INSTALATION: 
 1)	Download the contents, ie. MasterConfig.txt and SCA_xxxx__.jar from here and place it in a folder on your pc. The MasterConfig.txt file is where you will change your desired settings and the SCA_XXX.jar file is the actual application. 
