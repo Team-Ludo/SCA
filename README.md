@@ -57,6 +57,7 @@ Engine_Depth= -> This is how deep you want the engine to search for your moves. 
 LEGAL STUFF
 Notwithstanding what is stated below, the rights to this code remain with myself as the author thereof. You are only licenced to use it for the intended purpose and for the expressed duration.
 Save as stated below, this code includes no code bellowing to any other party or subject to any other license.
+
 The code includes one public repository which can be found here: https://github.com/bhlangonijr/chesslib and is available upon request. The master branch was used. That code is subject to the standard Appache License 2.0 which can be found here: https://github.com/bhlangonijr/chesslib/blob/master/LICENSE. The license file is available upon request and will be included once SCA get published.
 
 
