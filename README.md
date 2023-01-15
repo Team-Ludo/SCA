@@ -20,7 +20,7 @@ SETTINGS:
 You have full control over what and how many different lines will be looked at. These settings may be changed in the GUI. 
 1) Pgn_Name= -> Simply type the desired name for your PGN. Please note that the log file for this run will also be named accordingly. 
 2) Starting_Pgn= -> Simply type the starting position from where you want SCA to start. Please note that you must always END THE LINE WITH YOUR MOVE. Therefore, if you leave it blank it will believe we are black and start with villain to make the first move. Eg. if you leave it after 1. e4 e5 2. Nf3 it will start with villain to make move 2 for black. 
-3) Engine_Enable= -> This is to enable stockfish evaluations. Please note that engine evaluations will occur automatically if no Hero move was found by any other means. 
+3) Engine_Enable= -> This is to enable stockfish evaluations for blunder checks. Please note that engine evaluations will occur automatically if no Hero move was found by any other means. 
 4) Cpu_Cores = -> This value is how many CPU cores you want to assign to the engine. It is the same setting as that you will find on lichess as cpu’s. Please make sure that you do not set more than you have because then your PC will become unresponsive. 
 5) Engine_Memory = -> This is the value of how much memory you want to allocate to the engine in MB. It is the same setting as the “Memory” setting for the engine on lichess except it is not capped. Please make sure that you do not set more than you have because then your PC will become unresponsive.
 Engine_Depth= -> This is how deep you want the engine to search for your moves. The smaller the quicker the results but less reliable. The suggested value is between 30 and 40 depending on your hardware and your time. 
@@ -49,7 +49,7 @@ Engine_Depth= -> This is how deep you want the engine to search for your moves. 
 19)  Cloud_Engine_Depth= -> This is the lowest depth for our cloud evaluation to be used.
 20)  Line_Depth = -> This is the maximum depth we want to prepare. 
 21)  Need_To_Win = -> This setting will be used to determine which moves to use as Hero moves based on statistics. If set to true then only the win rate will be taken into account. If set to false then draws will be included as “wins”. Ie. if a move has 33% wins, 33% draws and 33% loses then a setting of true will give a “winrate” of 33% and a setting of false will give a “winrate” of 66%. 
-22)  Blunder_Stop= 80 -> This setting is not yet functional. It will allow user to stop lines after villain has blundered.
+22)  Blunder_Stop= 80 -> This is the maximum amount of centipawn we are willing to lose to prefer a database move above the engine top move. This test will always be run if the engine is enabled. Please note that this feature substatially increase the time used to complete any run.
 23)  License= beta
 
 
