@@ -1,7 +1,7 @@
 # SCA
 Welcome to SOME CHESS APP {SCA} beta.
 
-This app allows you to create PGN for purposes of preparing against an opponent or even against a database. 
+This app allows you to create a PGN for purposes of preparing against an opponent or even against a database. 
 
 SCA starts at a user defined position and then retrieves candidate move(s) for the villain from the database(s) as defined by the user. The number of moves so retrieved are included or limited by (i) which database(s) are used; (ii) how many branches are defined; (iii) the minimum games and popularity settings {these features can be seen below in the description of the settings}. 
 
