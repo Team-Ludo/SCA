@@ -13,7 +13,7 @@ PLEASE NOTE THAT DURING DOWNLOAD OR YOUR FIRST ATTEMPT TO RUN THE APP YOUR PC MA
 1)	Download the contents, ie. config.txt, readme and SCA_xxxx__.exe from here and extract it to a folder on your pc. 
 2) You may need to download 7-zip to extract these files. If you need to do this you can go to https://www.7-zip.org/download.html and download the version compatible with your operating system. 
 3)	Download your engine of choice. I suggest Stockfish which can be downloaded from: https://stockfishchess.org/download/. Please make sure to download the version that is compatible with your PC and operating system. If you are unsure just double click the binary that you downloaded. It should open a black or terminal window and it should not close by itself. If it does close by itself download an older version. Place the engine in the same folder as the other two files. RENAME THE ENGINE TO: "Engine.exe"
-4)	Double click the SCAxxx___.exe file. This will launch a GUI {graphical user interface} where you can change the settings. 
+4)	Double click the SCAxxx___.exe file. This will launch a GUI {graphical user interface} where you can change the settings. If you receive some error relating to Java then you need to install Java JDk. To do so please follow this guide: https://phoenixnap.com/kb/install-java-windows. Make sure to install the java “JDK”.
 5) After you have changed the settings just press run and read the output as it performs its work. 
 6)	After the App has finished you will see 2 new files. The first file is the _log text.txt file that gives more detail of what lines SCA considered ect. The second file is the PGN that you can import to Lichess as a study.
 
