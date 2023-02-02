@@ -26,7 +26,8 @@ You have full control over what and how many different lines will be looked at. 
 3) Engine_Enable= -> This is to enable stockfish evaluations for blunder checks. Please note that engine evaluations will occur automatically if no Hero move was found by any other means. 
 4) Cpu_Cores = -> This value is how many CPU cores you want to assign to the engine. It is the same setting as that you will find on lichess as cpu’s. Please make sure that you do not set more than you have because then your PC will become unresponsive. 
 5) Engine_Memory = -> This is the value of how much memory you want to allocate to the engine in MB. It is the same setting as the “Memory” setting for the engine on lichess except it is not capped. Please make sure that you do not set more than you have because then your PC will become unresponsive.
-Engine_Depth= -> This is how deep you want the engine to search for your moves. The smaller the quicker the results but less reliable. The suggested value is between 30 and 40 depending on your hardware and your time. 
+
+6) Engine_Depth= -> This is how deep you want the engine to search for your moves. The smaller the quicker the results but less reliable. The suggested value is between 30 and 40 depending on your hardware and your time. 
 6)  Villain_Database_Enabled= -> This simply asks whether you wish to use a specific player’s database to prepare against. If enabled the App will do a search for your opponent’s moves according to the settings below. 
 7) Villain_DB_Branches = -> This is how many moves should be considered on each turn. The MAX is 10. This is like when you have opened the database and it gives all the different moves that were played in the particular position ie. 1. e4, 1. d4,1. c4, 1. Nf3….ect. PLEASE NOTE THAT THIS SETTING DETERMINES HOW BIG THE PGN WILL BE AND IS COMULATIVE BETWEEN ALL THE DATABASES. 
 8)  Villain_Lichess_Username = -> this is the username of the person we want to prepare against.
