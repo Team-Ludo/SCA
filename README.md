@@ -1,8 +1,11 @@
 # SCA
-Welcome to SOME CHESS APP {SCA} beta.
+Welcome to SOME CHESS APP {SCA} beta. Please note that this version is available until 1 April 2023. 
 
 This app allows you to create a PGN for purpose of preparing against an opponent or even against a database. 
 Simply put you tell the APP your opponent's Lichess handle and yours. You chose your settings and the App gives you a PGN of what are the best lines to play against him.
+
+TL/DR:
+Just download and install using the instructions below. Then change Hero Lichess username to your own username and Villian Lichess Username to the player you wish to prepare against. Then press run and wait for the pgn.
 
 HOW IT WORKS:
 SCA starts from a user-defined position and then retrieves candidate move(s) for the villain from the database(s) as defined by the user. The number of moves so retrieved is included or limited by (i) which database(s) are used; (ii) how many branches are defined; (iii) the minimum games and popularity settings {these features can be seen below in the description of the settings}. 
