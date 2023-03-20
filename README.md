@@ -1,5 +1,5 @@
 # SCA
-Welcome to SOME CHESS APP {SCA} beta. Please note that this version is available until 1 April 2023. 
+Welcome to SOME CHESS APP {SCA} beta. Please note that this version is available until 15 April 2023. 
 
 This app allows you to create a PGN for purpose of preparing against an opponent or even against a database. 
 Simply put you tell the APP your opponent's Lichess handle and yours. You chose your settings and the App gives you a PGN of what are the best lines to play against him.
