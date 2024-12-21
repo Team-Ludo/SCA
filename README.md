@@ -46,17 +46,16 @@ You have full control over what and how many different lines will be looked at. 
 16)  Online_DB_Ratings = -> This is the same setting as on lichess. Please note that the options changed in January 2023.
 17)  Online_DB_Time_Control = -> See notes to the Villain DB 
 18)  Villian_Master_Database_Enabled= -> If set to true then the app will include moves from the master database of lichess as the candidate moves for Villain. 
-19)  Master_DB_Branches = -> This is how many moves out of the master database base will be included on every move as the candidate moves for Villain. 
-20)  Source for Hero Candidate: This setting determines which moves are considered possible moves for Hero. You can use (i) moves from the Master database in which case the most popular master move will be used as the Hero move; (ii) Hero Database in which case only moves we have played in the past will be considered as possible Hero moves. Please note the number of candidates will be determined by the Hero Database Branches setting; (iii) Lichess Online Database in which case only the moves found in the online database will be considered as possible Hero moves. Please note the number of candidates will be determined by the online database settings; (iv) the villain database in which case only moves played by the villain himself will be considered. Please note the number of candidates will be determined by the villain database settings; (v) Engine in which case the top engine move will be considered.
+19)  Source for Hero Candidate: This setting determines which moves are considered possible moves for Hero. You can use (i) moves from the Master database in which case the most popular master move will be used as the Hero move; (ii) Hero Database in which case only moves we have played in the past will be considered as possible Hero moves. Please note the number of candidates will be determined by the Hero Database Branches setting; (iii) Lichess Online Database in which case only the moves found in the online database will be considered as possible Hero moves. Please note the number of candidates will be determined by the online database settings; (iv) the villain database in which case only moves played by the villain himself will be considered. Please note the number of candidates will be determined by the villain database settings; (v) Engine in which case the top engine move will be considered.
 
-21) Statistical source for Hero move -> This setting determines how the candidate moves retrieved as described above will be weighed. Specifically which stats will be used to determine our most desirable move. 
-22)  Hero_Lichess_Username = -> Our username on lichess.
-23)  Cloud_Engine_Enable = -> This is a performance enhancement feature. It will allow the user to use the cloud evaluations instead of the engine evaluation to save time. This feature will make SCA substantially faster for the first couple of moves. The benefit decreases the deeper the lines go for obvious reasons.
-24)  Cloud_Engine_Depth= -> This is the lowest depth for our cloud evaluation to be used.
-25)  Line_Depth = -> This is the maximum depth we want to prepare. 
-26)  Need_To_Win = -> This setting will be used to determine which moves to use as Hero moves based on statistics. If set to true then only the win rate will be taken into account. If set to false then draws will be included as “wins”. Ie. if a move has 33% wins, 33% draws and 33% loses then a setting of true will give a “win rate” of 33%, and a set of false will give a “win rate” of 66%. 
-27)  Blunder_Stop= 80 -> This is the maximum amount of centipawn we are willing to lose to prefer a database move, based on statistics,  above the engine top move. This test will always be run if the engine is enabled. Please note that this feature substantially increases the time used to complete any run.
-23)  License= beta
+20) Statistical source for Hero move -> This setting determines how the candidate moves retrieved as described above will be weighed. Specifically which stats will be used to determine our most desirable move. 
+21)  Hero_Lichess_Username = -> Our username on lichess.
+22)  Cloud_Engine_Enable = -> This is a performance enhancement feature. It will allow the user to use the cloud evaluations instead of the engine evaluation to save time. This feature will make SCA substantially faster for the first couple of moves. The benefit decreases the deeper the lines go for obvious reasons.
+23)  Cloud_Engine_Depth= -> This is the lowest depth for our cloud evaluation to be used.
+24)  Line_Depth = -> This is the maximum depth we want to prepare. 
+25)  Need_To_Win = -> This setting will be used to determine which moves to use as Hero moves based on statistics. If set to true then only the win rate will be taken into account. If set to false then draws will be included as “wins”. Ie. if a move has 33% wins, 33% draws and 33% loses then a setting of true will give a “win rate” of 33%, and a set of false will give a “win rate” of 66%. 
+28)  Blunder_Stop= 80 -> This is the maximum amount of centipawn we are willing to lose to prefer a database move, based on statistics,  above the engine top move. This test will always be run if the engine is enabled. Please note that this feature substantially increases the time used to complete any run.
+29)  License= beta
 
 
 
